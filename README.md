@@ -21,3 +21,14 @@ git fetch origin main
 
 ### リモート追跡ブランチの情報をローカルに反映
 あああああ！
+
+```
+git merge <commit>
+```
+
+### fetchとmergeを同時にするpull
+pullは上記2つの動作を同時に行う
+
+```
+git pull origin main
+```
